@@ -1,0 +1,73 @@
+.nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 30px 70px
+        
+    
+    .social
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 80%
+
+        .logo
+            width: 150px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            
+
+
+            .logo1
+                width: 80px
+                padding-left: 3px
+
+
+
+        .icon
+            height: 35px
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 0 10px
+
+            @media (max-width: 1000px)
+                display: none
+
+
+            a img
+                background: white
+                padding: 5px
+                width: 25px
+                height: 25px
+
+            a+a
+                margin-left: 10px
+
+            
+
+    .menu
+        height: 26px
+        
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-family: 'Inter'
+        font-size: 17px
+        letter-spacing: 0.17px
+       
+        a
+            padding: 0 20px
+            color: #F6F8FC
+            transition: color 0.7s ease
+            @media (max-width: 880px)
+                padding: 0
+                font-size: 15px
+                padding: 0 5px
+
+
+        a:hover
+            color: #FFCA42
+
